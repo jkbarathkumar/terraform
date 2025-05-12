@@ -9,14 +9,11 @@ terraform {
 }
 
 provider "azurerm" {
-    features {
-      
+    features { 
     }
-  
 }
 
 resource "azurerm_resource_group" "example" {
   name     = "barath-resources"
   location = "West Europe"
 }
-
