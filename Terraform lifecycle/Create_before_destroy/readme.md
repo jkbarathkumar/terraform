@@ -1,10 +1,12 @@
+### Create before Destroy
+
 ```
 lifecycle {
     create_before_destroy = true
   }
 ```
 
-- After adding this code new storage account was create after that old storage account destroyed.
+- After adding this block, a new storage account was created first, and then the old storage account was destroyed.
 
 While creating
 
