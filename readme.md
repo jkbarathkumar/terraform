@@ -72,7 +72,7 @@ Ansible: Best for configuration management (installing packages, setting configs
 - In Terraform, the lifecycle block is a way to control how resources are managed during their lifecycle—specifically when Terraform is `planning, creating, updating, or destroying infrastructure`. It provides settings that let you override the default behavior.
  1. `create_before_destroy`
     - This ensures that a `new resource` is `created before the old one is destroyed` when a change requires replacement.
-    - This is useful to avoid downtime, especially for resources like compute instances, load balancers, or DNS records.
+    - This is useful to `avoid downtime`, especially for resources like compute instances, load balancers, or DNS records.
  2. `prevent_destroy`
 
     - The prevent_destroy lifecycle argument `protects a resource from accidental or intentional destruction`.
